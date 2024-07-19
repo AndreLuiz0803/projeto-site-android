@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color0: #53D971;
+    --color1: #43B55C;
+    --color2: #348F48;
+    --color3: #246432;
+    --color4: #15391D;
+}
+
+@font-face {
+    font-family: "Tecno";
+    src: local(Techno Chain), url(../fontes/Techno-Chain.otf);
+    font-weight: 600;
+ }
+
+
+
+body{
+    background-color: #53D971;
+}
+
+header{
+    background: linear-gradient(180deg, #43B55C, #246432);
+}
+
+header > h1{
+    color: white;
+    font-size: 50pt;
+    text-align: center;
+    font-family: 'Tecno';
+    padding-top: 20px;
+}
+
+header > h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+header > nav{
+    margin-left: 25px;
+    padding-bottom: 11px;
+
+}
+
+header > nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+header > nav > a:hover{
+    background-color: var(--color2);
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0px 4px 10px #15391d8e;
+}
+
+main > h1{
+    color: var(--color4);
+    margin-bottom: 8px;
+}
+
+main > h2{
+    color: var(--color4);
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > p > strong{
+    color: var(--color4);
+}
+
+main > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color4);
+}
+
+main > p > a:hover{
+    text-decoration: underline;
+}
+
+main > picture{
+    max-width: 1000px;
+}
+
+main > picture > img{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main > div#bugdroid{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main > div.video{
+    background-color: var(--color3);
+    margin: 20px -25px 30px -25px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+
+}
+
+main > div.video > iframe{
+    position: absolute;
+    top: 7.3%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
+}
+
+main > aside{
+    background-color: var(--color0);
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+main > aside > div{
+    background-color: var(--color3);
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+}
+
+main > aside > div > h3{
+    text-align: center;
+    color: white;
+    font-size: 18pt;
+}
+
+main > aside > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-block-end: 15px;
+}
+
+main > aside > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main > aside > p > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+main > aside > ul{
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+main > aside > ul > li{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--color3);
+    padding: 10px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+}
